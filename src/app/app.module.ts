@@ -3,12 +3,12 @@ import { NgModule, Injector } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 
 const config = {
-  apiKey: 'AIzaSyAesSTpq6RdhSGqqh3BNcJErodzk1ePzps',
-  authDomain: 'fireship-dev-17429.firebaseapp.com',
-  databaseURL: 'https://fireship-dev-17429.firebaseio.com',
-  projectId: 'fireship-dev-17429',
-  storageBucket: 'fireship-dev-17429.appspot.com',
-  messagingSenderId: '307044372590'
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  databaseURL: process.env.DATABASE_URL,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGE_SENDER_ID
 };
 
 import { AngularFireModule } from '@angular/fire';
@@ -32,12 +32,15 @@ export class AppModule {
   constructor(private injector: Injector) {}
 
   ngDoBootstrap() {
+
+    // create array of tuples, first item = classname, 2nd element = element
     const elements: any[] = [
       [ImgLazyComponent, 'img-lazy'],
       [ImgFirebaseComponent, 'img-firebase'],
       [MyBtnComponent, 'my-btn']
     ];
 
+    // destructure tuples using a for loop
     for (const [component, name] of elements) {
       const el = createCustomElement(component, { injector: this.injector });
       customElements.define(name, el);
