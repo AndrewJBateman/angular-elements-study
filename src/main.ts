@@ -8,6 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
-//disable Angular automatic change detection/rerendering (ngZone)
+// disable Angular automatic change detection/rerendering (ngZone)
 platformBrowserDynamic().bootstrapModule(AppModule, { ngZone: 'noop'})
   .catch(err => console.error(err));
