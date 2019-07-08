@@ -27,6 +27,8 @@ An Angular 8 app that uses [@angular/elements](https://angular.io/guide/elements
 4. Emit public events
 5. Project content with slots
 
+* Custom Elements are not supported by all browsers. They are supported by Chrome, Firefox, Opera, and Safari. They are available in other browsers by using polyfills.
+
 ## Screenshots
 
 ![Example screenshot](./img/.png)
@@ -61,7 +63,7 @@ An Angular 8 app that uses [@angular/elements](https://angular.io/guide/elements
 
 * To-Do:
 
-1. Fix @angular/core problem
+1. Fix @angular/core problem & do npm install.
 2. Add firestore keys using .env file
 3. I ran a Chrome dev audit and it only passed 1 out of 5 tests. There are a number of improvements that can be made to pass all 5 tests.
 
@@ -72,6 +74,10 @@ An Angular 8 app that uses [@angular/elements](https://angular.io/guide/elements
 * [Academind: Angular 8 - What's New? What changed?](https://www.youtube.com/watch?v=5_IC_ZJrVMg)
 
 * [Angular Update Guide](https://update.angular.io/#7.2:8.0)
+
+* [Medium Tutorial by Alain Chautard: How to create Custom Angular Elements?](https://blog.angulartraining.com/tutorial-how-to-create-custom-angular-elements-55aea29d80c5)
+
+* [fcc article by by Prateek Mishra: How to create Angular 6 Custom Elements and Web Components](https://www.freecodecamp.org/news/how-to-create-angular-6-custom-elements-web-components-c88814dc6e0a/)
 
 ## Contact
 
