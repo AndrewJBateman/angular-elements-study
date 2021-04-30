@@ -59,6 +59,5 @@ public class Main {
                 System.out.println("You cannot go in that direction");
             }
         }
-
     }
 }
