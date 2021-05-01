@@ -28,6 +28,7 @@
 * [Java OutputStreamWriter class](https://docs.oracle.com/javase/7/docs/api/java/io/OutputStreamWriter.html) bridge from character streams to byte streams
 * [BufferedReader constructor](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html) reads text from a character-input stream. The close() method
   closes the stream and releases any system resources associated with it.
+  * [Java Byte Streams](https://docs.oracle.com/javase/tutorial/essential/io/bytestreams.html) used to perform reading and writing of 8-bit bytes.
 
 ## :camera: Screenshots
 

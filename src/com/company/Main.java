@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    private static com.company.Locations locations = new com.company.Locations();
+    private static Locations locations = new Locations();
 
     public static void main(String[] args) {
         // Change the program to allow players to type full words, or phrases, then move to the
@@ -24,7 +24,6 @@ public class Main {
         vocabulary.put("SOUTH", "S");
         vocabulary.put("WEST", "W");
         vocabulary.put("EAST", "E");
-
 
         int loc = 1;
         while(true) {
