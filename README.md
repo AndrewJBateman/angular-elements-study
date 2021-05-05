@@ -31,6 +31,8 @@
 * [Byte Streams](https://docs.oracle.com/javase/tutorial/essential/io/bytestreams.html) used to perform reading and writing of 8-bit bytes.
 * [EOFException class](https://docs.oracle.com/javase/7/docs/api/java/io/EOFException.html) used to Signal that an end of file or end of stream has been reached unexpectedly during input.
 * [ObjectOutputStream](https://docs.oracle.com/javase/7/docs/api/java/io/ObjectOutputStream.html) and [ObjectInputStream](https://docs.oracle.com/javase/7/docs/api/java/io/ObjectInputStream.html) writes primitive data types and graphs of Java objects to an OutputStream.
+* [RandomAccessFile class](https://docs.oracle.com/javase/7/docs/api/java/io/RandomAccessFile.html) to read and write to a random access file. Includes a file pointer as an index of the array.
+* [DataStream readUTF method](https://docs.oracle.com/javase/7/docs/api/java/io/DataInputStream.html#readUTF()) 
 
 ## :camera: Screenshots
 
